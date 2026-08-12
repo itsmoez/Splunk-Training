@@ -114,4 +114,13 @@ Effective security operations centre best practices focus on balancing people, p
 ## What is SIEM?
 
 SIEM Stands for **Security information & Events management**. 
-- Purpose: Collects logs + correlates events + parses unreadable or hard to read event data so its readable
+
+Its a system/software that monitors your organisation for security by collectings logs and event data. Log/Event data is a digital record of events occuring within a system, application or a network device or endpoint. Its mostly machine generated. For example, what ever a user does on their computer on a website a company own, they can see what has been done from the computer because of the log/event data it produces.
+
+SIEM acts as a central source for collecting, storing and analysing all of that log and alert data together. It also parses that data so its more human readable. 
+
+## SIEM analogy
+
+![CCTV image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32lPMrH6HdnTQ_GQtdTZ-_OH-U53cQ7glG5XTwnqrRw&s=10)
+
+A **SIEM** (Security Information and Event Management) is like an airport security control room or a master CCTV center for a giant building. It gathers thousands of different video feeds and data logs from every door, window, and hallway, puts them on one massive screen, and flags strange behavior for human guards to check out.
