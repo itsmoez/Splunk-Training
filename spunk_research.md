@@ -123,4 +123,44 @@ SIEM acts as a central source for collecting, storing and analysing all of that 
 
 ![CCTV image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32lPMrH6HdnTQ_GQtdTZ-_OH-U53cQ7glG5XTwnqrRw&s=10)
 
-A **SIEM** (Security Information and Event Management) is like an airport security control room or a master CCTV center for a giant building. It gathers thousands of different video feeds and data logs from every door, window, and hallway, puts them on one massive screen, and flags strange behavior for human guards to check out.
+A **SIEM** (Security Information and Event Management) is like an airport security control room or a master CCTV center for a giant building. It gathers thousands of different video feeds and data logs from every door, window, and hallway, puts them on one massive screen, and flags strange behavior for human guards to check out, The human guards being the Soc analysts.
+
+## Examples of SIEM software in 2026
+
+|Major SIEM platforms   | Their Focus       |
+|:-------:      |---------     |
+| Splunk Enterprise Security|Best for massive, complex enterprise data analytics and deep security operations customization|
+|Microsoft Sentinel|Best for Azure and Microsoft 365-heavy enterprise environments, leveraging cloud scaling and Kusto Query Language (KQL).|
+|Google Security Operations|Best for high-scale, cloud-native threat detection backed by Chronicle's large-scale log ingestion|
+|CrowdStrike Falcon Next-Gen SIEM|Best for endpoint-driven ecosystems utilizing native XDR telemetry and AI triage workflows|
+|Rapid7 InsightIDR|Best for lean security teams needing fast deployment and asset-based visibility|
+
+## What is Splunk?
+
+Every second, organisations generate massive amounts of machine data but without the right tools, this data remains untapped potential. Splunk Enterprise is a powerful data platform that helps organizations collect, analyze, and act on machine-generated data in real time, powering solutions across observability, security, IT operations, and business analytics.
+
+## What can Splunk be used for? Why use it?
+
+### CyberSecurity use cases
+
+- **Splunk** provides tools for detecting, investigating, and responding to cyber threats.
+
+**Example** : A financial instituition, like dueche bank, can use Splunk to track fraudulant transactions in real-time, saving millions in potential loses.
+
+**Why it matters**: Correlating data across IT systems makes it easier to identify anomalies — which may be threats or attacks in action — before they escalate.
+
+## IT Operations and AIOps use cases
+- **Splunk** monitors IT infrastructure, identifies performance bottlenecks, and ensures systems run smoothly.
+
+**Example** : E-commerce platforms use Splunk to prevent downtime during high-traffic events like Black Friday.
+
+**Why It Matters**: Rapid troubleshooting reduces downtime, saving both time and money.
+
+## Observability and monitoring use cases
+- **Splunk** provides end-to-end visibility into applications, infrastructure, and user experiences.
+
+**Example**: Healthcare providers monitor critical applications to ensure seamless patient care.
+
+**Why it matters**: Observability helps resolve issues faster, enhancing user satisfaction and building brand trust.
+
+
