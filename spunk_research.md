@@ -46,7 +46,7 @@ Provides attacker info, IOCs
 **Cloud Security Tools**  
 e.g., Defender for Cloud, AWS GuardDuty
 
-## 🔄 SOC Processes
+## SOC Processes
 
 **Log Collection** – Gather logs from servers, apps, cloud, endpoints
 
@@ -64,7 +64,7 @@ e.g., Defender for Cloud, AWS GuardDuty
 
 **Post‑Incident Review** – Lessons learned + improvements
 
-## ⚠️ Common SOC Challenges
+## Common SOC Challenges
 
 **Too many alerts** (alert fatigue) - Security tools generate enormous volumes of alerts daily, many of which turn out to be false positives. Sorting through thousands of notifications can easily become overwhelming for analysts, increasing the risk that critical warnings get overlooked.
 
