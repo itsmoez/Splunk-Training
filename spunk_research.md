@@ -1,79 +1,86 @@
-### What is a SOC?
-A Security Operations Centre (SOC) is a team + technology setup that monitors, detects, investigates, and responds to cyber threats in an organisation.
+## What is a SOC?
 
+ A Security Operations Centre (SOC) is a team + technology setup that monitors, detects, investigates, and responds to cyber threats in an organisation. 
+ 
+```
 Think of it as the “security control room” for a company.
+```
 
-### Key Functions of a SOC
-- Monitoring – Watch logs(various), alerts, events and systems 24/7
+## Key Functions of a SOC
 
-- Detection – Spot suspicious or malicious activity- I.E if someone is trying to log in 10 times in a minute, might be a brute force attack
+- **Monitoring** – Watch logs(various), alerts, events and systems 24/7
 
-- Investigation – Analyse alerts to understand what happened
+- **Detection** – Spot suspicious or malicious activity- I.E if someone is trying to log in 10 times in a minute, might be a brute force attack
 
-- Response – Contain and fix security incidents
+- **Investigation** – Analyse alerts to understand what happened
 
-- Threat Hunting – Actively search for hidden threats
+- **Response** – Contain and fix security incidents
 
-- Reporting – Document incidents and improvements
+- **Threat Hunting** – Actively search for hidden threats
 
-- Improvement – Tune rules, update playbooks, reduce false positives (CI/CD continuous improvement)
+- **Reporting** – Document incidents and improvements
 
-### 🧰 Common SOC Technologies
-SIEM means (Security Information & Event Management)  
+- **Improvement** – Tune rules, update playbooks, reduce false positives (CI/CD continuous improvement)
+
+## Common SOC Technologies
+
+**SIEM** means (Security Information & Event Management)  
 e.g., Splunk, Microsoft Sentinel, QRadar
 - Purpose: Collects logs + correlates events + parses unreadable or hard to read event data so its readable
 
-EDR/XDR (Endpoint Detection & Response)  
+**EDR/XDR** (Endpoint Detection & Response)  
 e.g., Defender for Endpoint, CrowdStrike
 Detects suspicious behaviour on devices
 
-SOAR (Security Orchestration, Automation & Response)  
+**SOAR** (Security Orchestration, Automation & Response)  
 e.g., Sentinel SOAR, Cortex XSOAR
 - Automates responses by executing predefined response playbooks
 
-Firewalls / IDS / IPS  
+**Firewalls / IDS / IPS** 
 Network protection + intrusion detection
 
-Threat Intelligence Platforms  
+**Threat Intelligence Platforms**  
 e.g., MISP, Recorded Future
 Provides attacker info, IOCs
 
-Cloud Security Tools  
+**Cloud Security Tools**  
 e.g., Defender for Cloud, AWS GuardDuty
 
-### 🔄 SOC Processes
-Log Collection – Gather logs from servers, apps, cloud, endpoints
+## 🔄 SOC Processes
 
-Alerting – SIEM detects patterns and triggers alerts
+**Log Collection** – Gather logs from servers, apps, cloud, endpoints
 
-Triage – Analysts check severity + urgency
+**Alerting** – SIEM detects patterns and triggers alerts
 
-Investigation – Deep dive into logs, endpoints, network
+**Triage** – Analysts check severity + urgency
 
-Containment – Block IPs, isolate machines, reset credentials
+**Investigation** – Deep dive into logs, endpoints, network
 
-Eradication – Remove malware, patch vulnerabilities
+**Containment** – Block IPs, isolate machines, reset credentials
 
-Recovery – Restore systems, verify safety
+**Eradication** – Remove malware, patch vulnerabilities
 
-Post‑Incident Review – Lessons learned + improvements
+**Recovery** – Restore systems, verify safety
 
-### ⚠️ Common SOC Challenges
-Too many alerts (alert fatigue) - Security tools generate enormous volumes of alerts daily, many of which turn out to be false positives. Sorting through thousands of notifications can easily become overwhelming for analysts, increasing the risk that critical warnings get overlooked.
+**Post‑Incident Review** – Lessons learned + improvements
 
-False positives - a false postive is an alert triggered by a security tool that flags safe, normal activity as a cyber or malicious attack.
+## ⚠️ Common SOC Challenges
 
-Lack of skilled analysts - The cyber industry faces a significant skill gap. Experienced and qualified cyber workers are expensive to hire because the demand is high, making retention and recruitment difficult.
+**Too many alerts** (alert fatigue) - Security tools generate enormous volumes of alerts daily, many of which turn out to be false positives. Sorting through thousands of notifications can easily become overwhelming for analysts, increasing the risk that critical warnings get overlooked.
 
-Poor log quality or missing logs
+**False positives** - a false postive is an alert triggered by a security tool that flags safe, normal activity as a cyber or malicious attack.
 
-Slow response times
+**Lack of skilled analysts** - The cyber industry faces a significant skill gap. Experienced and qualified cyber workers are expensive to hire because the demand is high, making retention and recruitment difficult.
 
-Complex cloud environments
+**Poor log quality or missing logs**
 
-Keeping up with new threats
+**Slow response times**
 
-### SoC Best practices
+**Complex cloud environments**
+
+**Keeping up with new threats**
+
+## SoC Best practices
 
 Effective security operations centre best practices focus on balancing people, processes, and technology to reduce adversary dwell time. They do this by using:
 
@@ -81,17 +88,30 @@ Effective security operations centre best practices focus on balancing people, p
 
 - Combat burnout : Rotate shifts fairly, automate repetitive tasks
 
-### SoC roles
-Tier 1 acts as frontline triage unit watching alerts
-Tier 2 investigates real threats and manages containment
-Teir 3 handles complex incidents while building long term defensive rules
+## SoC roles
 
-### What is threat hunting
+| **SoC Tier** | **What the Tier entails** |
+| ---      | ---                   |
+| Tier 1   | acts as frontline triage unit watching alerts |
+| Tier 2   | investigates real threats and manages containment |
+| Tier 3   | handles complex incidents while building long term defensive rules |
 
-Threat hunting is a proactive approach to identify previously unknown or currently ongoing cyber threats in a organisation.
+## What is threat hunting
 
-### Common Eventtypes to look out for
+**Threat hunting** is a proactive approach to identify previously unknown or currently ongoing cyber threats in a organisation.
 
-- Security breaches - The SOC may send an alert if it detects a security breach, such as unauthorized access to a network or system, or if it receives notification of a breach from an external source. A few examples of security breaches would include unauthorized access attempts, malware infections, Denial of Service (DOS) attacks, and data exfiltration attempts.
+## Common Event types to look out for
 
-- 
+- **Security breaches** - The SOC may send an alert if it detects a security breach, such as unauthorized access to a network or system, or if it receives notification of a breach from an external source. A few examples of security breaches would include unauthorized access attempts, malware infections, Denial of Service (DOS) attacks, and data exfiltration attempts.
+
+- **Vunerabilities** - You might be alerted if the SoC detects vunerabilities in your organisation or application that could be exploited by an attacker. Examples of this are Weak data encryption, weak authorisation credentials and unpatched software. 
+
+- **Suspicious activity**
+- **Compliance violations**
+- **System failures**
+- **Threat intelligence**
+
+## What is SIEM?
+
+SIEM Stands for **Security information & Events management**. 
+- Purpose: Collects logs + correlates events + parses unreadable or hard to read event data so its readable
